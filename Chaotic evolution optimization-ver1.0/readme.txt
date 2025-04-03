@@ -2,9 +2,9 @@ This is the Chaotic evolution optimization (CEO)
 The main function is Test_CEO.
 You are suggested to cite the following references if you are using the CEO.
 
-1) 
+1) Dong Y, Zhang S, Zhang H, et al. Chaotic evolution optimization: A novel metaheuristic algorithm inspired by chaotic dynamics[J]. Chaos, Solitons & Fractals, 2025, 192: 116049.
 
-Contact Information£º
+Contact InformationÂ£Âº
 Dr. Yingchao Dong
 Associate Professor
 School of Energy Engineering,
