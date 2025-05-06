@@ -34,7 +34,7 @@ while 1
         xy = Population(index,:); % Randomly select two individuals
         
         % Perform interval mapping on xt and yt by executing Eq. (4).
-        xy_dot = ((xy -  lb)./(ub - lb)).*(repmat(up_chacos',1,Dim) - repmat(low_chacos',1,Dim)) + repmat(low_chacos',1,Dim);
+        xy_dot = (xy -  lb)./((ub - lb)).*(repmat(up_chacos',1,Dim) - repmat(low_chacos',1,Dim)) + repmat(low_chacos',1,Dim);
         
         % N chaotic individuals are obtained by executing Eq. (2)
         [x_chaos,y_chaos] = EDM(xy_dot(1,:),xy_dot(2,:),N);
